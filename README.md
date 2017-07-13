@@ -11,7 +11,7 @@ The module is assumed to be used as follows:
 
 >>> import board
 >>> game, me, cpu = board.set("Reversi")
->>> cpu.set_agent("agemt_file.py")
+>>> cpu.set_agent("agent_file.py")
 >>> game.start(me, "first")
 >>> me.put(3,4)
 >>> me.undo()
